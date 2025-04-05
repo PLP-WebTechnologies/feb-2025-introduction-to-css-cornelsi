@@ -1,0 +1,84 @@
+/*basic styling for the body and text*/
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    background-color: bisque;
+    color:black;
+}
+
+/* styling the header */
+h1{
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+
+h5{
+    text-align: center;
+}
+
+h3{
+    color: rgb(242, 19, 19);
+    margin margin-top: 20px;
+}
+
+h4{
+    color: rgb(60, 37, 230);
+}
+
+#smalltitle{font-style: italic;}
+
+p{
+    line line-height: 1.5;
+    padding:10px;
+    margin: 0 20px;
+}
+
+ul{
+    padding-left: 40px;
+}
+
+/* Styling stanzas */
+.stanza{
+    padding:10px;
+    margin:10px 0;
+    border-left: 5px solid;
+    font-style: oblique;
+
+}
+.chorus {
+    padding: 20px;
+    margin: 10px 0;
+    border-left: 5px solid #e74c3c;
+    font-style: oblique;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styling the image */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Styling for links */
+a {
+    color: #3498db;
+    text-decoration: double;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
